@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ensure Data Inputted Correctly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59013bea-411b-4880-95a2-d9c83dc842d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86aa485a-2cca-4653-bb38-8eef71a1b0e7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\n    &quot;$schema&quot;: &quot;http://json-schema.org/draft-06/schema#&quot;,\n    &quot;$ref&quot;: &quot;#/definitions/Welcome3&quot;,\n    &quot;definitions&quot;: {\n        &quot;Welcome3&quot;: {\n            &quot;type&quot;: &quot;object&quot;,\n            &quot;additionalProperties&quot;: false,\n            &quot;properties&quot;: {\n                &quot;title&quot;: {\n                    &quot;type&quot;: &quot;string&quot;\n                },\n                &quot;body&quot;: {\n                    &quot;type&quot;: &quot;string&quot;\n                },\n                &quot;userID&quot;: {\n                    &quot;type&quot;: &quot;string&quot;,\n                    &quot;format&quot;: &quot;integer&quot;\n                },\n                &quot;id&quot;: {\n                    &quot;type&quot;: &quot;integer&quot;\n                }\n            },\n            &quot;required&quot;: [\n                &quot;body&quot;,\n                &quot;id&quot;,\n                &quot;title&quot;,\n                &quot;userID&quot;\n            ],\n            &quot;title&quot;: &quot;Welcome3&quot;\n        }\n    }\n}\n'</defaultValue>
+      <description></description>
+      <id>86aa485a-2cca-4653-bb38-8eef71a1b0e7</id>
+      <masked>false</masked>
+      <name>jsonScheme</name>
+   </variable>
+</TestCaseEntity>

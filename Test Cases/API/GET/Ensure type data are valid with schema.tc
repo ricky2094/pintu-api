@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Ensure type data are valid with schema</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57123257-ab03-4858-bb38-c2daf9fa357a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c1b0b92-d274-4e81-84a1-0d535f766013</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\n    &quot;$schema&quot;: &quot;http://json-schema.org/draft-06/schema#&quot;,\n    &quot;type&quot;: &quot;array&quot;,\n    &quot;items&quot;: {\n        &quot;$ref&quot;: &quot;#/definitions/Welcome8Element&quot;\n    },\n    &quot;definitions&quot;: {\n        &quot;Welcome8Element&quot;: {\n            &quot;type&quot;: &quot;object&quot;,\n            &quot;additionalProperties&quot;: false,\n            &quot;properties&quot;: {\n                &quot;userId&quot;: {\n                    &quot;type&quot;: &quot;integer&quot;\n                },\n                &quot;id&quot;: {\n                    &quot;type&quot;: &quot;integer&quot;\n                },\n                &quot;title&quot;: {\n                    &quot;type&quot;: &quot;string&quot;\n                },\n                &quot;body&quot;: {\n                    &quot;type&quot;: &quot;string&quot;\n                }\n            },\n            &quot;required&quot;: [\n                &quot;body&quot;,\n                &quot;id&quot;,\n                &quot;title&quot;,\n                &quot;userId&quot;\n            ],\n            &quot;title&quot;: &quot;Welcome8Element&quot;\n        }\n    }\n}\n'</defaultValue>
+      <description></description>
+      <id>4c1b0b92-d274-4e81-84a1-0d535f766013</id>
+      <masked>false</masked>
+      <name>jsonscheme</name>
+   </variable>
+</TestCaseEntity>
